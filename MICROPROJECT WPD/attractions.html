@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 Jyotirlingas Icons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Background color */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px;
+            padding: 20px;
+        }
+        .frame {
+            border: 5px solid #6a0572; /* Frame color */
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .frame img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        .frame:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="frame"><img src="k01.jpg" alt="Jyotirlinga 1"></div>
+    <div class="frame"><img src="k04.jpg" alt="Jyotirlinga 2"></div>
+    <div class="frame"><img src="k05.jpg" alt="Jyotirlinga 3"></div>
+    <div class="frame"><img src="k06.jpg" alt="Jyotirlinga 4"></div>
+    <div class="frame"><img src="k07.jpg" alt="Jyotirlinga 5"></div>
+    <div class="frame"><img src="k02.jpg" alt="Jyotirlinga 6"></div>
+    <div class="frame"><img src="k03.jpg" alt="Jyotirlinga 6"></div>
+</div>
+
+</body>
+</html>
